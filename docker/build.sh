@@ -133,7 +133,7 @@ build_images() {
         --set "*.args.SETUP_ARGS=$setup_args" \
         --set "*.args.LIB_DIR=$lib_dir" \
         --set "base.tags=ghcr.io/autowarefoundation/autoware:latest-base" \
-        --set "devel.tags=ghcr.io/autowarefoundation/autoware:latest-devel$image_name_suffix" \
+        --set "devel.tags=ghcr.io/autowarefoundation/autoware:adeeb-092024-devel$image_name_suffix" \
         --set "runtime.tags=ghcr.io/autowarefoundation/autoware:latest-runtime$image_name_suffix" \
         "${targets[@]}"
     set +x
